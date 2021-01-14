@@ -1,4 +1,5 @@
 CC = xcodebuild
+DESTDIR = xcderiveddata
 FLAGS = build -project Pallet.xcodeproj -scheme Pallet-standalone -derivedDataPath $(DESTDIR)
 
 all:
